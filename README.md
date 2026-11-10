@@ -5,6 +5,7 @@ O app usa a API ASP.NET do projeto `Farmacia_site`; ele não acessa o SQL Server
 ## Versão publicada (Azure + GitHub Pages)
 
 - App Flutter (código): https://github.com/Audrey8011/farmaecia-flutter
+- API ASP.NET (código): https://github.com/Audrey8011/farmaecia-api
 - API ASP.NET (Azure): https://farmaecia-api-audrey-2026.azurewebsites.net/api
 - Loja MVC em execução (Azure): https://farmaecia-mvc-audrey-2026.azurewebsites.net/
 - Vitrine estática (GitHub Pages): https://audrey8011.github.io/farmaecia/
