@@ -2,6 +2,21 @@
 
 O app usa a API ASP.NET do projeto `Farmacia_site`; ele não acessa o SQL Server diretamente. No Android e iOS, o catálogo sincronizado fica em SQLite no aparelho. No Web, o cache offline usa o armazenamento local do navegador.
 
+## Versão publicada (Azure + GitHub Pages)
+
+- App Flutter (código): https://github.com/Audrey8011/farmaecia-flutter
+- API ASP.NET (Azure): https://farmaecia-api-audrey-2026.azurewebsites.net/api
+- Loja MVC em execução (Azure): https://farmaecia-mvc-audrey-2026.azurewebsites.net/
+- Vitrine estática (GitHub Pages): https://audrey8011.github.io/farmaecia/
+
+O banco Azure SQL (`FarmaECiaDb`, oferta gratuita) é compartilhado entre o MVC e a API. No aparelho, o SQLite continua sendo apenas o cache offline.
+
+Para gerar um APK apontando para a API pública:
+
+```powershell
+flutter build apk --debug --dart-define=API_BASE_URL=https://farmaecia-api-audrey-2026.azurewebsites.net/api
+```
+
 ## Executar localmente
 
 1. Inicie a API em `Farmacia_site/Farmacia_site` com `dotnet run`.
