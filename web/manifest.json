@@ -1,0 +1,10 @@
+{
+  "name": "Farma&Cia",
+  "short_name": "Farma&Cia",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#f4f5f9",
+  "theme_color": "#bd1e38",
+  "description": "Farmácia online Farma&Cia",
+  "orientation": "portrait-primary"
+}
